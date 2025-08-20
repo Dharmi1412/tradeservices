@@ -1,0 +1,18 @@
+:root{/* Color Palette */
+--color1: #0a1730;   /* Very Dark Navy */
+--color2: #0c2e59;   /* Deep Blue */
+--color3: #13538c;   /* Ocean Blue */
+--color4: #1e7cb0;   /* Teal Blue */
+--color5: #27a1cf;   /* Light Cyan-Blue */
+--color6: #ffffff;   /* White (text) */
+}
+
+body{
+    color: var(--color6);
+}
+
+a{
+     color: var(--color6);
+    text-decoration: none;
+
+}

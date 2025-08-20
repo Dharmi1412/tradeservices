@@ -1,0 +1,28 @@
+.container-faqs {
+  padding: 0.5rem;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--color6);
+    text-align: left;
+    background-color: var(--color2);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.accordion {
+    --bs-accordion-color: var(--color6);
+    --bs-accordion-bg:  var(--color2);
+    --bs-accordion-border-color:  var(--color3);
+}
+
+.container-faqs{
+    margin: 20px;
+}

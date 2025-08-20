@@ -1,0 +1,41 @@
+.herosec-div{
+margin-left: 30px;
+}
+
+.head-div{
+    margin-top: 180px;
+
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+.span-div{
+     color: var(--color4)
+}
+.subhead-div{
+    font-size: 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 180px;
+
+}
+
+@media (max-width: 768px) {
+
+    .head-div{
+    margin-top: 10px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+}
