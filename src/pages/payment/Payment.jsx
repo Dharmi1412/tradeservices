@@ -8,7 +8,9 @@ export default function Payment() {
 
   return (
     <div>
-      <div>Plans for every style of trading</div>
+      <div className="plan-div">
+        <h1>Plans for every style of trading</h1>
+      </div>
 
       <div>
         <nav className="main-reg-div">

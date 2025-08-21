@@ -17,3 +17,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.plan-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+.plan-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+}
