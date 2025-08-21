@@ -48,7 +48,7 @@
   }
   .link-div.open {
     display: flex;
-    background-color:  linear-gradient(90deg, var(--color1), var(--color3));
+    background-color:  var(--color2);
   }
   .mobile-toggle {
     display: block;
