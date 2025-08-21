@@ -1,0 +1,101 @@
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  flex: 1;
+  max-width: 360px;
+  background: #1a2340;
+  color: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pricing-header h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.pricing-header .tag {
+  font-size: 0.8rem;
+  background: #3f4aff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 15px 0 5px;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.features li {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subscribe-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #0c2e59, #13538c);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background: linear-gradient(90deg, #13538c, #27a1cf);
+}
+
+.guarantee {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #ccc;
+}

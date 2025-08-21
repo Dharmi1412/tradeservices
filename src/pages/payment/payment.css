@@ -1,0 +1,19 @@
+.reg-btn {
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 0 5px;
+  background: var(--color3);
+  transition: all 0.2s ease;
+}
+
+.reg-btn.active {
+  background: var(--color1);  /* highlight color */
+  color: var(--color6);
+  font-weight: bold;
+}
+.reg2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
