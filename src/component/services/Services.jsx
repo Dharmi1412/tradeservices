@@ -1,8 +1,11 @@
 import React from "react";
 import "./services.css";
 import { assets } from "../../assets/assets";
+import { FaArrowRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export default function Services() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="main-div">
@@ -27,6 +30,11 @@ export default function Services() {
               reversals by smart money. Our world class trading algos are the
               best way to level up your TradingView charts.
             </span>
+            <div className="btn-service-div">
+              <button onClick={() => navigate("/access")}>
+                unlock access <FaArrowRight />
+              </button>
+            </div>
           </div>
         </div>
 
@@ -47,6 +55,11 @@ export default function Services() {
               trading algorithms. Filter out market chaos and find trade setups
               on stocks, crypto, & forex markets.
             </span>
+            <div className="btn-service-div">
+              <button onClick={() => navigate("/access")}>
+                get access now <FaArrowRight />
+              </button>
+            </div>
           </div>
         </div>
 
@@ -68,6 +81,11 @@ export default function Services() {
               work for you. Plug our backtesting software into any platform to
               automate your trades like a pro.
             </span>
+            <div className="btn-service-div">
+              <button onClick={() => navigate("/access")}>
+                level up your charts <FaArrowRight />
+              </button>
+            </div>
           </div>
         </div>
       </div>

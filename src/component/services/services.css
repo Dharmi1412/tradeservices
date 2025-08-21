@@ -44,6 +44,23 @@
 .text-div {
   width: 50%;
 }
+
+.btn-service-div button{
+  background-color: var(--color1);
+  color: var(--color6);
+  border: 1px solid var(--color2);
+  padding: 13px;
+  border-radius: 30px;
+  width: 50%;
+}
+
+.btn-service-div button:hover {
+  box-shadow: 0 0 15px var(--color2), 
+              0 0 30px var(--color3),
+              0 0 45px var(--color1);
+  transform: translateY(-2px); /* Slight lift */
+}
+
 .text-div p {
   font-size: 30px;
   background: linear-gradient(
@@ -59,14 +76,19 @@
   color: transparent;
 }
 
-.span1-div {
-  font-size: 40px;
+.btn-service-div{
+  margin-top: 30px;
 }
 
 .span2-div {
+  margin-top: 40px;
   font-size: 20px;
   font-weight: 400px;
 }
+
+  .span1-div {
+    font-size: 40px;
+  }
 
 /* --------- */
 .services-div {
