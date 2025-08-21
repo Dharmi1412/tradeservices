@@ -20,7 +20,7 @@ export default function Services() {
           <div className="text-div">
             <p>Advanced Algos</p>
             <span className="span1-div">State of the art trading tools</span>
-<br />
+            <br />
 
             <span className="span2-div">
               Automate complicated price action, get easy signals, and detect
@@ -38,8 +38,10 @@ export default function Services() {
           <div className="text-div">
             <p>Screeners & Alerts</p>
 
-            <span className="span1-div">Easily find high probability setups</span>
-<br />
+            <span className="span1-div">
+              Easily find high probability setups
+            </span>
+            <br />
             <span className="span2-div">
               Use professional-grade screeners & alerts with our most exclusive
               trading algorithms. Filter out market chaos and find trade setups
@@ -56,8 +58,10 @@ export default function Services() {
           <div className="text-div">
             <p>Next-Gen Backtesting</p>
 
-            <span className="span1-div">An AI agent to build winning strategies</span>
-<br />
+            <span className="span1-div">
+              An AI agent to build winning strategies
+            </span>
+            <br />
 
             <span className="span2-div">
               Ask our AI agent to find the best trading strategies and do the
