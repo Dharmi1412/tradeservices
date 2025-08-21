@@ -158,6 +158,7 @@
     /* height: 30vh; */
     padding: 5px;
     width: 85%;
+    height: 495px;
     margin-bottom: 40px;
     display: block;
   }
@@ -184,4 +185,14 @@
   .text-div {
     width: 100%;
   }
+  
+.btn-service-div button{
+  background-color: var(--color1);
+  color: var(--color6);
+  border: 1px solid var(--color2);
+  padding:7px;
+  border-radius: 30px;
+  width: 95%;
+}
+
 }
