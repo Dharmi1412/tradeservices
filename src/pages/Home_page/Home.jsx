@@ -3,7 +3,7 @@ import './home.css'
 import Herosec from '../../component/Herosection/Herosec'
 import Services from '../../component/services/Services'
 import Faqs from '../../component/faqs/Faqs'
-import Payment from '../payment/Payment'
+// import Payment from '../payment/Payment'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <Herosec/>
         <Services/>
         <Faqs/>
-        <Payment/>
+        {/* <Payment/> */}
     </div>
   )
 }
